@@ -23,6 +23,7 @@ export * from "./Switch/Switch";
 export * from "./Tab/Tab";
 export * from "./Table/Table";
 export * from "./Tag/Tag";
+export * from "./TestimonialCard/TestimonialCard";
 export * from "./Text/Text";
 export * from "./Textarea/Textarea";
 export * from "./Tooltip/Tooltip";

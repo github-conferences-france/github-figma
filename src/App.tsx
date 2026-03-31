@@ -6,6 +6,7 @@ import { PanelSections } from "./examples/PanelSections";
 import { PricingGrid } from "./examples/PricingGrid";
 import { ProductDetails } from "./examples/ProductDetails";
 import { ProductGrid } from "./examples/ProductGrid";
+import { Testimonials } from "./examples/Testimonials";
 import { WelcomeHero } from "./examples/WelcomeHero";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <PanelSections />
       <PricingGrid />
       <FAQs />
+      <Testimonials />
       <ProductDetails />
       <ProductGrid />
       <Footer />
