@@ -42,7 +42,9 @@ export const TestimonialCard = React.forwardRef(function TestimonialCard(
         />
         <div className="testimonial-card-info">
           <TextStrong>{name}</TextStrong>
-          <TextSmall elementType="span">{title}</TextSmall>
+          <TextSmall elementType="span" className="testimonial-card-title">
+            {title}
+          </TextSmall>
         </div>
       </div>
     </div>

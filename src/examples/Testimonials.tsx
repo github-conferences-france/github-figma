@@ -74,6 +74,7 @@ export function Testimonials() {
               name={testimonial.name}
               title={testimonial.title}
               initials={testimonial.initials}
+              avatarAlt={testimonial.name}
             />
           ))}
         </Flex>
