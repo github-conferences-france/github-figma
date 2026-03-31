@@ -62,7 +62,7 @@ export function Testimonials() {
           heading="What Our Users Say"
           subheading="Hear from teams who build with Simple Design System every day"
         />
-        <Flex wrap type="third" gap="1200">
+        <Flex wrap type="third" gap={flexGap}>
           {testimonials.map((testimonial) => (
             <TestimonialCard
               key={testimonial.username}
