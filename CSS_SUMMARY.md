@@ -2,7 +2,7 @@
 
 A comprehensive listing of all CSS used in this design system, organized by category.
 
-> **Source**: All styles are defined in the `src/` directory and map directly to the [Figma Design File](https://www.figma.com/design/E41AJd456kEbJ2erwBK6jT/BOOTH---Conferences--AD-TUG-?node-id=3321-23356&t=rFv3f7U5FPUZclQM-0). Design tokens in `src/theme.css` are auto-generated from Figma variables via `npm run script:tokens`.
+> **Source**: All styles are defined in the `src/` directory and map directly to the [Simple Design System Figma Community File](https://www.figma.com/community/file/1380235722331273046/simple-design-system). Design tokens in `src/theme.css` are auto-generated from Figma variables via `npm run script:tokens`.
 
 ---
 
@@ -243,7 +243,7 @@ Defined on `:root` (default). Values reference color primitives.
 
 ### 1.3 Semantic Colors — Dark Mode
 
-Defined inside `@media (prefers-color-scheme: dark)`. All tokens mirror the light mode keys but swap values to dark-appropriate primitive references (e.g., `--sds-color-background-default-default` changes from `var(--sds-color-white-1000)` to `var(--sds-color-gray-900)`). See `src/theme.css` lines 236–375 for the full mapping.
+Defined inside `@media (prefers-color-scheme: dark)`. All tokens mirror the light mode keys but swap values to dark-appropriate primitive references (e.g., `--sds-color-background-default-default` changes from `var(--sds-color-white-1000)` to `var(--sds-color-gray-900)`). See the dark mode `@media (prefers-color-scheme: dark)` section in `src/theme.css` for the full mapping.
 
 ### 1.4 Sizing
 
